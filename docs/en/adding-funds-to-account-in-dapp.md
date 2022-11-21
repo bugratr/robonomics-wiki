@@ -1,51 +1,51 @@
 ---
-title: Adding funds to your account on Robonomics Portal 
+başlık: Robonomics Portalı'nda hesabınıza para ekleme
 
-contributors: [Houman]
-translated: true
-tools:   
+katkı veren: [Houman]
+çeviri: true
+araçlar:   
   - Robonomics 2.4.0
     https://github.com/airalab/robonomics
 ---
 
-**After successfully creating your accounts on Robonomics portal, it is time to add funds to them so that you would be able to initiate transactions.**
+**Hesaplarınızı Robonomics portalında başarıyla oluşturduktan sonra, işlemleri başlatabilmeniz için hesaplarınıza para ekleme zamanı geldi.**
 
-<robo-wiki-note type="warning" title="Dev Node">
+<robo-wiki-note type="warning" title="Geliştirici Düğümü">
 
-  Please pay attention that this and following tutorials are demonstrated on a local instance of Robonomics Node. Set
- up yours with [these instructions](/docs/run-dev-node).
+  Lütfen bu ve sonraki eğitimlerin Robonomics Node'un yerel bir örneğinde gösterildiğine dikkat edin. Sizinkini [bu talimatlarla kurun].(/docs/run-dev-node).
 
 </robo-wiki-note>
 
-## 1. Navigate to Accounts section on Robonomics portal 
+## 1. Robonomics portalındaki Hesaplar bölümüne gidin
 
-![Accounts](../images/creating-an-account/portal-top-left.jpg "Accounts")
+![Hesaplar](../images/creating-an-account/portal-top-left.jpg "Accounts")
 
-## 2. Choose the account you want to transfer funds from
+## 2. Para transferi yapmak istediğiniz hesabı seçin
 
-In the development mode, there exist several accounts, with 10000 Units worth of funds each, that can be used to transfer funds to other accounts created in the development network. These accounts are indicated by wrench signs <img alt="wrench sign" src="../images/adding-funds/wrench.png" width="20" /> next to them.
+Geliştirme modunda, geliştirme ağında oluşturulan diğer hesaplara para aktarmak için kullanılabilecek, her biri 10000 Birim değerinde fon içeren birkaç hesap vardır. Bu hesaplar, yanlarında İngiliz anahtarı işaretleri <img alt="wrench sign" src="../images/adding-funds/wrench.png" width="20" /> ile gösterilir.
 
+ 
 ![Accounts-for-sending](../images/adding-funds/accounts-for-sending.svg "Accounts-for-sending")
 
-- Click on the "send" button of the account you want to transfer funds from, for example BOB
+- Para transferi yapmak istediğiniz hesabın "gönder" düğmesine tıklayın, örneğin BOB
 
-## 3. Choose the account you want to transfer funds into
-After clicking on the "send" button, you would be prompted with the "send funds window". In the prompted window:
+## 3.Para aktarmak istediğiniz hesabı seçin
+"Gönder" düğmesine tıkladıktan sonra, sizden "para gönder penceresi" istenir. İstenen pencerede:
 
-- From the list of available accounts, choose the account you want to send funds into.
-- Enter the number of Units you want to send.
-- Press "make transfer"
+- Mevcut hesaplar listesinden para göndermek istediğiniz hesabı seçin.
+- Göndermek istediğiniz Birim sayısını girin.
+- "Transfer yap"a basın
 
 ![Transfer-Funds](../images/adding-funds/send-funds.png "Transfer-Funds")
 
-## 4. Authorize the transaction
+## 4. İşlemi yetkilendirin
 
-After pressing "make transfer" in the previous stage, you would be prompted with "authorize transaction window".<br/>
-Review the details of the transaction and finally click on "sign and submit" button.
+Bir önceki aşamada "transfer yap"a bastıktan sonra "işlem yetkilendirme penceresi" ile karşılaşacaksınız.<br/>
+İşlemin ayrıntılarını inceleyin ve son olarak "imzala ve gönder" düğmesine tıklayın.
 
 ![sign-transaction](../images/adding-funds/sign-transaction.png "sign-transaction")
-In this example, we transferred 500 units of funds from "BOB" to "EMPLOYER". You can see that EMPLOYER's account, which initially did not have any funds, has 500 Units of fund now.
+Bu örnekte, "BOB"dan "İŞVEREN"e 500 birim fon aktardık. İŞVEREN'in başlangıçta hiç parası olmayan hesabında şu anda 500 Birim fon olduğunu görebilirsiniz.
 
 ![funds-added](../images/adding-funds/funds-added.svg "funds-added")
 
-**Make sure that you have enough funds in the accounts you want to use in the playground.**
+**Oyun alanında kullanmak istediğiniz hesaplarda yeterli para olduğundan emin olun.**
